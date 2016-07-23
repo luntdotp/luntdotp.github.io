@@ -1,0 +1,60 @@
+body {
+  font-family: Open Sans, 'Open Sans', Liberation Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-left: 10%;
+  padding-top: 9%;
+  background: #1a1a1a url(3.png) no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  transition: background-img 1s linear;
+}
+
+h1 {
+  font-size: 3.1em;
+  margin-bottom: 5px;
+  margin-left: -3px;
+}
+
+.muted {
+  color: #d1d1d1;
+}
+
+.name {
+  white-space: nowrap;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.external-button {
+  display: inline-block;
+  color: #fff;
+  align: center;
+  text-decoration: none;
+  border: #fff 2px solid;
+  border-radius: 5px;
+  padding: 4px 40px;
+  max-width: 100px;
+  margin-right: 7px;
+  transition: color 0.3s, border-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.external-button:hover {
+  color: #d1d1d1;
+  border: #d1d1d1 2px solid;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.privacy {
+  color: #fff;
+  font-size: 0.9em;
+  text-decoration-style: dotted;
+}
